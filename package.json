@@ -1,0 +1,29 @@
+{
+  "name": "twitter-proxy",
+  "version": "0.0.0",
+  "description": "Twitter api proxy server with cors support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony-async-await index",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmosgenius/twitter-proxy.git"
+  },
+  "keywords": [
+    "twitter",
+    "proxy",
+    "api"
+  ],
+  "author": "Sharat M R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cosmosgenius/twitter-proxy/issues"
+  },
+  "homepage": "https://github.com/cosmosgenius/twitter-proxy#readme",
+  "dependencies": {
+    "eslint": "^3.12.2",
+    "koa": "next"
+  }
+}
