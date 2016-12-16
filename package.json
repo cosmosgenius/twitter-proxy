@@ -24,6 +24,8 @@
   "homepage": "https://github.com/cosmosgenius/twitter-proxy#readme",
   "dependencies": {
     "eslint": "^3.12.2",
-    "koa": "next"
+    "kcors": "next",
+    "koa": "next",
+    "koa-router": "next"
   }
 }
