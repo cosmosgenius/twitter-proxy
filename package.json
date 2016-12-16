@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node --harmony-async-await index",
+    "debug": "nodemon --harmony-async-await --inspect index",
     "test": "jest"
   },
   "repository": {
@@ -23,9 +24,13 @@
   },
   "homepage": "https://github.com/cosmosgenius/twitter-proxy#readme",
   "dependencies": {
-    "eslint": "^3.12.2",
     "kcors": "next",
     "koa": "next",
-    "koa-router": "next"
+    "koa-mount": "next"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "jest": "^18.0.0",
+    "nodemon": "^1.11.0"
   }
 }
