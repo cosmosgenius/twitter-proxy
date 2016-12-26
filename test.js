@@ -15,5 +15,6 @@ describe('twitter-proxy api',function () {
             .expect(200, {
                 test: 'success'
             });
+        twitterapi.done();
     });
 });
