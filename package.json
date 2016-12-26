@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/cosmosgenius/twitter-proxy#readme",
   "jest": {
-      "testEnvironment": "node"
+      "testEnvironment": "node",
+      "collectCoverage": true
   },
   "dependencies": {
     "kcors": "next",
