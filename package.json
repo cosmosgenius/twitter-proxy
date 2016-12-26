@@ -26,7 +26,9 @@
   "dependencies": {
     "kcors": "next",
     "koa": "next",
-    "koa-mount": "next"
+    "koa-mount": "next",
+    "request": "^2.79.0",
+    "request-promise-native": "^1.0.3"
   },
   "devDependencies": {
     "eslint": "^3.12.2",
