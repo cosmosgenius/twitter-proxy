@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node --harmony-async-await index",
     "debug": "nodemon --harmony-async-await --inspect index",
-    "test": "jest"
+    "test": "node --harmony-async-await ./node_modules/.bin/jest -i --forceExit"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,9 @@
     "url": "https://github.com/cosmosgenius/twitter-proxy/issues"
   },
   "homepage": "https://github.com/cosmosgenius/twitter-proxy#readme",
+  "jest": {
+      "testEnvironment": "node"
+  },
   "dependencies": {
     "kcors": "next",
     "koa": "next",
@@ -33,6 +36,9 @@
   "devDependencies": {
     "eslint": "^3.12.2",
     "jest": "^18.0.0",
-    "nodemon": "^1.11.0"
+    "nock": "^9.0.2",
+    "nodemon": "^1.11.0",
+    "supertest": "^2.0.1",
+    "supertest-as-promised": "^4.0.2"
   }
 }
