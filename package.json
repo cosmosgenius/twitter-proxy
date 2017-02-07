@@ -1,6 +1,6 @@
 {
   "name": "twitter-proxy",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Twitter api proxy server with cors support",
   "main": "index.js",
   "scripts": {
