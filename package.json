@@ -1,12 +1,12 @@
 {
   "name": "twitter-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Twitter api proxy server with cors support",
   "main": "index.js",
   "scripts": {
-    "start": "node --harmony-async-await index",
-    "debug": "nodemon --harmony-async-await --inspect index",
-    "test": "node --harmony-async-await ./node_modules/.bin/jest -i --forceExit"
+    "start": "node index",
+    "debug": "nodemon --inspect index",
+    "test": "jest -i --forceExit"
   },
   "repository": {
     "type": "git",
@@ -23,23 +23,25 @@
     "url": "https://github.com/cosmosgenius/twitter-proxy/issues"
   },
   "homepage": "https://github.com/cosmosgenius/twitter-proxy#readme",
+  "engines": {
+    "node": ">=7.6.0"
+  },
   "jest": {
       "testEnvironment": "node",
       "collectCoverage": true
   },
   "dependencies": {
-    "kcors": "next",
-    "koa": "next",
-    "koa-mount": "next",
+    "kcors": "^2.2.1",
+    "koa": "^2.0.1",
+    "koa-mount": "^2.0.0",
     "request": "^2.79.0",
     "request-promise-native": "^1.0.3"
   },
   "devDependencies": {
-    "eslint": "^3.15.0",
-    "jest": "^18.1.0",
+    "eslint": "^3.16.1",
+    "jest": "^19.0.2",
     "nock": "^9.0.3",
     "nodemon": "^1.11.0",
-    "supertest": "^3.0.0",
-    "supertest-as-promised": "^4.0.2"
+    "supertest": "^3.0.0"
   }
 }

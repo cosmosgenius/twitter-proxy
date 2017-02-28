@@ -1,5 +1,5 @@
 const nock = require('nock');
-const request = require('supertest-as-promised');
+const request = require('supertest');
 const app = require('./lib');
 
 describe('twitter-proxy api',function () {
