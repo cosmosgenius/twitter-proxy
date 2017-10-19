@@ -24,22 +24,22 @@
   },
   "homepage": "https://github.com/cosmosgenius/twitter-proxy#readme",
   "engines": {
-    "node": ">=7.6.0"
+    "node": ">=8.6.0"
   },
   "jest": {
-      "testEnvironment": "node",
-      "collectCoverage": true
+    "testEnvironment": "node",
+    "collectCoverage": true
   },
   "dependencies": {
     "kcors": "^2.2.1",
     "koa": "^2.0.1",
-    "koa-mount": "^2.0.0",
+    "koa-mount": "^3.0.0",
     "request": "^2.79.0",
     "request-promise-native": "^1.0.3"
   },
   "devDependencies": {
-    "eslint": "^3.16.1",
-    "jest": "^19.0.2",
+    "eslint": "^4.9.0",
+    "jest": "^21.2.1",
     "nock": "^9.0.3",
     "nodemon": "^1.11.0",
     "supertest": "^3.0.0"
